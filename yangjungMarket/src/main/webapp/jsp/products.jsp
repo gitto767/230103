@@ -29,7 +29,7 @@
         while(rs.next()){
         %>
       <div class="col-md-4">
-        <img src="<%=request.getContextPath()%>/images/<%=rs.getString("fileName")%>" style="width:100%">
+        <img src="<%=request.getContextPath()%>/upload/<%=rs.getString("fileName")%>" style="width:100%">
         
         <h3><%=rs.getString("name") %></h3>
         <p><%=rs.getString("description")%></p>

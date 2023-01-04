@@ -9,7 +9,7 @@
 
 <%
   String filename="";
-  String realFolder="C:\\upload";
+  String realFolder="C:\\hrd1102\\yangjungMarket\\src\\main\\webapp\\upload";
   String encType="utf-8";
   int maxSize=5*1024*1024;
   
